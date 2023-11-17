@@ -36,11 +36,12 @@ doc/api/
 .flutter-plugins-dependencies
 
 .DS_Store
-example/**/*.g.dart
-example/**/*.freezed.dart
 node_modules
 .env
-env.g.dart
+
+# Generated files
+**/**/*.g.dart
+**/**/*.freezed.dart
 
 # IntelliJ related
 .idea
